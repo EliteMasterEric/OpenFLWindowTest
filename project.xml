@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="Move OpenFl Window" package="br.com.rafaholiveira.moveopenflwindow" version="1.0.0" company="Rafael Oliveira" />
+	<app main="Main" path="Export" file="MoveOpenFlWindow" />
+
+	<!--window width="640" height="480" /-->
+	<window width="640" height="480" borderless="true" />
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	
+	<assets path="Assets" rename="assets" exclude="*.svg" />
+	<icon path="Assets/openfl.svg" />
+	
+</project>

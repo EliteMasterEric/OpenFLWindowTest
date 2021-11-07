@@ -1,27 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <project>
 	
-	<meta title="Displaying a Bitmap" package="org.openfl.samples.displayingabitmap" version="1.0.0" company="OpenFL" />
+	<meta
+		title="Displaying a Bitmap"
+		package="org.openfl.samples.displayingabitmap"
+		version="1.0.0"
+		company="OpenFL"
+	/>
 	<app main="Main" path="Export" file="DisplayingABitmap" />
 	
-  <window
-    hardware="true"
-    allow-shaders="true"
-    require-shaders="true"
-    depth-buffer="false"
-    stencil-buffer="false"
-    fullscreen="false" 
-    resizable="false" 
-    vsync="true" />
+	<window
+		hardware="true"
+		allow-shaders="true"
+		require-shaders="true"
+		depth-buffer="false"
+		stencil-buffer="false"
+		fullscreen="false"
+		resizable="false"
+		vsync="true"
+	/>
 
-  <window 
-    background="null"
-    borderless="true" 
-  />
+	<window background="null" borderless="true" />
 
-	<source path="Source"/>
+	<source path="Source" />
 	
-	<haxelib name="openfl"/>
+	<haxelib name="openfl" />
 	
 	<assets path="Assets" rename="assets" />
 	

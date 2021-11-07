@@ -1,6 +1,12 @@
-Compile with:
+# OpenFLWindowTest
 
-lime test linux -Dnext
+A window that is:
+* Borderless
+* Transparent
+* Draggable
 
-On neko the app crashes with Segmentation fault when the window is moved
-and on Windows needs tests.
+## Compilation
+
+```
+lime test windows
+```

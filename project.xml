@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
 	
-	<meta title="Move OpenFl Window" package="br.com.rafaholiveira.moveopenflwindow" version="1.0.0" company="Rafael Oliveira" />
-	<app main="Main" path="Export" file="MoveOpenFlWindow" />
+	<meta title="Displaying a Bitmap" package="org.openfl.samples.displayingabitmap" version="1.0.0" company="OpenFL" />
+	<app main="Main" path="Export" file="DisplayingABitmap" />
+	
+  <window hardware="true" allow-shaders="true" require-shaders="true" depth-buffer="false" stencil-buffer="false" />
 
-	<!--window width="640" height="480" /-->
-	<window width="640" height="480" borderless="true" />
+  <window 
+  background="null" 
+  fullscreen="false" 
+  resizable="false" 
+  borderless="true" 
+  vsync="true"/>
+
+	<source path="Source"/>
 	
-	<source path="Source" />
+	<haxelib name="openfl"/>
 	
-	<haxelib name="openfl" />
-	
-	<assets path="Assets" rename="assets" exclude="*.svg" />
-	<icon path="Assets/openfl.svg" />
+	<assets path="Assets" rename="assets" />
 	
 </project>

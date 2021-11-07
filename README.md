@@ -2,7 +2,7 @@
 
 A window that is:
 * Borderless
-* Transparent
+* Not Transparent because of [this bug](https://github.com/openfl/openfl/issues/2513)
 * Draggable
 
 ## Compilation

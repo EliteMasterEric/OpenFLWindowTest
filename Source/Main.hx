@@ -22,10 +22,10 @@ class Main extends Sprite {
 
 		bitmap.x = (stage.stageWidth - bitmap.width) / 2;
 		bitmap.y = (stage.stageHeight - bitmap.height) / 2;
-		//stage.alpha=0; //making it 0 will make everything disappear
-		//stage.opaqueBackground=0;
-		//stage.color=0x000000;
-    stage.color=null;
+		// stage.alpha=0; //making it 0 will make everything disappear
+		// stage.opaqueBackground=0;
+		// stage.color=0x000000;
+    	// stage.color=null;
 		
 		addChild (bitmap);
 

@@ -4,14 +4,20 @@
 	<meta title="Displaying a Bitmap" package="org.openfl.samples.displayingabitmap" version="1.0.0" company="OpenFL" />
 	<app main="Main" path="Export" file="DisplayingABitmap" />
 	
-  <window hardware="true" allow-shaders="true" require-shaders="true" depth-buffer="false" stencil-buffer="false" />
+  <window
+    hardware="true"
+    allow-shaders="true"
+    require-shaders="true"
+    depth-buffer="false"
+    stencil-buffer="false"
+    fullscreen="false" 
+    resizable="false" 
+    vsync="true" />
 
   <window 
-  background="null" 
-  fullscreen="false" 
-  resizable="false" 
-  borderless="true" 
-  vsync="true"/>
+    background="null"
+    borderless="true" 
+  />
 
 	<source path="Source"/>
 	
